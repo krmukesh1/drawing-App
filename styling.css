@@ -1,0 +1,86 @@
+body {
+  text-align: center;
+  background: url(https://cdn.pixabay.com/photo/2016/11/16/05/15/star-1828208_960_720.jpg)
+    center center fixed;
+  background-size: cover;
+}
+/* title */
+#header {
+  background: linear-gradient(white, rgba(67, 169, 228, 0.9));
+  height: 80px;
+  width: 550px;
+  margin: 10px, auto;
+  font-size: 3em;
+  color: #ffffff;
+  line-height: 80px;
+}
+/* inputs container */
+.inputContainer {
+  width: 200px;
+  margin: 0 auto;
+}
+/* color input, line thickness slider */
+.input {
+  height: 30px;
+  font-size: 1.3em;
+}
+#slider {
+  margin: 10px auto;
+}
+#circle {
+  height: 3px;
+  width: 3px;
+  border-radius: 50%;
+  background: black;
+  margin: 0 auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+#thicknessInput {
+  position: relative;
+}
+/* canvas container */
+#container {
+  height: 400px;
+  width: 500px;
+  border: 1px solid rgba(122, 174, 229, 0.5);
+  margin: 10px auto;
+}
+#paint {
+  background-color: #fff;
+  cursor: crosshair;
+}
+/* buttons */
+.inputContainer2 {
+  width: 399px;
+  margin: 0 auto;
+}
+/* input container */
+.input2 {
+  width: 133px;
+  color: #5bb4e7;
+  font-size: 1.3em;
+  float: left;
+}
+.button {
+  background: #fff;
+  height: 50px;
+  padding: 10px;
+  border-radius: 3px;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+}
+.button:hover {
+  color: white;
+  background: linear-gradient(white, rgba(67, 169, 228, 0.9));
+}
+.button:active {
+  top: 4px;
+}
+.eraseMode {
+  background-color: red;
+  color: white;
+}
